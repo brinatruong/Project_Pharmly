@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pharmly</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!--NavBar-->
+    <header class="NavBar">
+        <div class="NavBarBtn" id="NavBar">
+            <button class="NavBarBtn">
+                <i class="fa fa-home" id="home"></i>
+                <a href="home.html"></a>
+            </button>
+        </div>
+            <img src="images/PharmlyLogo.png" id="headerImg">
+            <div class="NavBarBtn">
+                <button class="NavBarBtn">
+                    <i class="fa fa-user-circle" id="login"></i>
+                    <a href="profile.html">Login</a>
+                </button>
+            </div>
+    </header>
+
+    <!--HeroImage-->
+    <section class="section-Hero">
+        <div class="HeroImage">
+            <img src="images/HeroImg.png">
+            <h1>Find out about...</h1>
+            <ul>
+                <li>Side effects</li>
+                <li>Interactions</li>
+                <li>Recalls</li>
+            </ul>
+        </div>
+    </section>
+       
+    <!--Search-->
+    <section class="search">
+        <div class="search">
+            <h2>Enter your medication:</h2>
+            <!--Search Form-->
+            <form action="action_page.php">
+                <input type="text" placeholder="Search" name="search" style="border-width: 2px; text-indent: 10px;">
+                <button type="submit" id="searchBtn"><i class="fa fa-search" id="searchBtn" ></i></button>
+            </form>
+        </div>
+    </section>
+
+    <!--Go Premium-->
+    <section class="SecGoPremium">
+        <h3 class="GoPremium">Go Premium!</h3>
+        <p3 class="GoPremium">Create an account to save your medications, 
+            <br>and get the most benefits! For only $5.99 per month.</p>
+        <div class="GoPremium">
+            <p3>Premium gives you access to:</p>
+            <ul3 class="GoPremium">
+                <li>Saved Profile</li>
+                <li>Recall Notifications</li>
+                <li>24/7 Pharmacist Support</li>
+            </ul>
+        </div>
+        <button class="button">
+            <a href="signup.html" class="button" style="color: #0080A6;">Sign Up for Premium</a>
+        </button>
+    </section>
+    
+<!--Footer-->
+    <footer>
+        <div class="get-in-touch">
+            <h8>GET IN TOUCH</h8><br>
+            <p class="get-in-touch">Interested in Pharmly? <br>Contact us today for more information about our services.</p><br>
+            <h8>FOLLOW US</h8>
+            <div class="socialmedia">
+                <i class="fa fa-facebook-official w3-hover-opacity"></i>
+                <i class="fa fa-instagram w3-hover-opacity"></i>
+                <i class="fa fa-twitter w3-hover-opacity"></i>
+            </div>
+        </div>
+        <div class="contact-us">
+            <h8>CONTACT US</h8><br>
+            <p class="contact-us" style="text-decoration: underline; font-weight: 500;">Address</p>
+            <p>UX/UI Project<br>123 Pharmly Lane<br>Bootcamp, GWU 12345</p>
+        </div>
+        <div class="marketing-and-media">
+            <h8>MARKETING AND MEDIA</h8>
+            <p>For all Marketing and Media Inquiries please contact:</p>
+            <div class="teamEmail">
+                <ul class="developer-email">
+                    <li>
+                        <a href = "mailto: brina.truong@gmail.com" style="color: #0080A6;">Brina Truong</a>
+                    </li>
+                    <li>
+                        <a href = "mailto: alisonarnold03@gmail.com" style="color: #0080A6;">Alison Arnold</a>
+                    </li>
+                    <li>
+                        <a href = "mailto: jamaal.ledbetter339@gmail.com" style="color: #0080A6;">Jamaal Ledbetter</a>
+                    </li>
+                    <li>
+                        <a href = "mailto: haidgtran@yahoo.com" style="color: #0080A6;">Justin Tran</a>
+                    </li>
+                </ul>
+            </div>
+            <p>For more information please refer to: <a href="https://www.drugs.com/" target="_blank" class="marketing-and-media" style="color: #0080A6;">Drugs.com</a></p>
+        </div>
+    </footer>
+</body>
+</html>

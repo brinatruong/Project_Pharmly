@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pharmly</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!--NavBar-->
+<header class="NavBar">
+    <div class="NavBarBtn" id="NavBar">
+        <button class="NavBarBtn">
+            <i class="fa fa-home" id="home"></i>
+            <a href="home.html"></a>
+        </button>
+    </div>
+        <img src="images/PharmlyLogo.png" id="headerImg">
+        <div class="NavBarBtn">
+            <button class="NavBarBtn">
+                <i class="fa fa-user-circle" id="login"></i>
+                <a href="profile.html">Login</a>
+            </button>
+        </div>
+</header>
+
+<!--Header-->
+    <div class="header-title">
+        <h3 style="padding-top: 55px;">Enter your medication:</h3>
+            <!--Search Form-->
+        <form class="example" action="action_page.php">
+            <input type="text" placeholder="Search" name="search" style="border-width: 2px; text-indent: 10px;">
+            <button type="submit" id="headerBtn"><i class="fa fa-search" id="headerBtn"></i></button>
+        </form>
+        </div>
+
+<!--Sign Up-->
+    <div class="signUpBtn">
+        <button class="signUp">
+            <a href="signup.html" class="signUp">Sign Up for Premium</a>
+        </button>
+    </div>
+<section class="signUp-header">
+    <img src="images/image2.png">
+    <div class="signUpd">
+        <h6>Premium Members Get:</h6>
+        <ul>
+            <li>Saved Profile</li>
+            <li>Recall Notifications</li>
+            <li>24/7 Pharmacist Support</li>
+        </ul>
+        <h6>For only $5.99 per month</h6>
+    </div>
+</section>
+
+    <!--Register Form-->
+    <section class="RegisterForm">
+        <div class="RegisterForm">
+            <div class="RBtn">
+                <button class="RegisterBtn">Sign Up with Google</button>
+                <button class="RegisterBtn">Sign Up with Facebook</button>
+                <button class="RegisterBtn">Sign Up with Apple</button>
+            </div>
+            <div class="Register">
+                <form>
+                    <label for="fname">First name</label>
+                    <input type="text" id="fname" value="Jerry" style="margin-left: 0px; font-size: 18px; text-indent: 10px; border-style: solid; border-radius: 0%; border-width: 2px; border-color: black; margin-bottom: 30px;">
+                    <label for="lname">Last name</label>
+                    <input type="text" id="lname" value="Sperry" style="margin-left: 0px; font-size: 18px; text-indent: 10px; border-style: solid; border-radius: 0%; border-width: 2px; border-color: black; margin-bottom: 30px;">
+                    <label for="fname">Email Address</label>
+                    <input type="text" id="Ename" value="jsperry@gmail.com" style="margin-left: 0px; font-size: 18px; text-indent: 10px; border-style: solid; border-radius: 0%; border-width: 2px; border-color: black; margin-bottom: 30px;">
+                    <label for="lname">Password</label>
+                    <input type="password" id="Pname" value="**********" style="margin-left: 0px; font-size: 18px; text-indent: 10px; border-style: solid; border-radius: 0%; border-width: 2px; border-color: black;">
+                  </form>
+            </div>
+        </div>
+    </section>
+    <button type="submit" class="payment">Payment <i class="fa fa-arrow-right"></i></button>
+    <!--Register Payment-->
+    <section class="RegisterPay">
+        <p style="font-weight: 700; font-size: 21px;">Choose a payment method</p>
+        <form>
+            <div>
+                <label for="html" class="container">Credit Card
+                    <div class="icon-container">
+                        <i class="fa fa-cc-visa" style="color:navy;"></i>
+                        <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                        <i class="fa fa-cc-amex" style="color:blue;"></i>
+                        <i class="fa fa-cc-discover" style="color:darkorange;"></i>
+                    </div>
+                    <input type="checkbox" checked="checked">
+                    <span class="checkmark"></span>
+                </label>
+                <label for="css" class="container">Paypal
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                    <div class="icon-container">
+                        <i class="fa fa-paypal" style="color:dodgerblue;"></i>
+                    </div>
+            </div>
+        </form>
+        <div class="creditcard">
+            <form>
+                <label for="card">Card Number</label>
+                <input type="text" value="4093096486327126" style="margin-left: 0px; font-size: 18px; text-indent: 10px; border-style: solid; border-radius: 0%; border-width: 2px; border-color: black; margin-bottom: 20px;">
+                <label for="ncard">Name on Card</label>
+                <input type="text" value="Jerry Sperry" style="margin-left: 0px; font-size: 18px; text-indent: 10px; border-style: solid; border-radius: 0%; border-width: 2px; border-color: black; margin-bottom: 20px;">
+                <label for="ecard" >Expiration Date</label><br>
+                    <select class="expiration-month"style="margin-left: 0px; font-size: 18px; text-indent: 10px; width: 60px; border-style: solid; border-radius: 0%; border-width: 2px; border-color: black; margin-bottom: 20px;">
+                        <option>- -</option>
+                        <option>01</option>
+                        <option>02</option>
+                        <option>03</option>
+                        <option>04</option>
+                        <option>05</option>
+                        <option>06</option>
+                        <option>07</option>
+                        <option>08</option>
+                        <option>09</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                    </select>
+                    <select class="expiration-year" style="margin-left: 0px; font-size: 18px; text-indent: 10px; width: 100px; border-style: solid; border-radius: 0%; border-width: 2px; border-color: black; margin-bottom: 20px;">
+                        <option>- - - -</option>
+                        <option>2023</option>
+                        <option>2024</option>
+                        <option>2025</option>
+                        <option>2026</option>
+                        <option>2027</option>
+                        <option>2028</option>
+                        <option>2029</option>
+                        <option>2030</option>
+                    </select><br>
+                <label for="cvcard">CVC</label><br>
+                <input type="text" value="804" style="margin-left: 0px; font-size: 18px; text-indent: 10px; width: 60px; border-style: solid; border-radius: 0%; border-width: 2px; border-color: black; margin-bottom: 20px;"><br>
+                <label for="emcard">Email</label>
+                <input type="text" value="jsperry@gmail.com" style="margin-left: 0px; font-size: 18px; text-indent: 10px; border-style: solid; border-radius: 0%; border-width: 2px; border-color: black; margin-bottom: 20px;">
+            </form>
+        </div>
+        <p style="margin-left: 250px; margin-top: -10px;">We only contact you for confirmation updates.</p>
+    </section>
+    <button type="submit" class="payment">Confirm <i class="fa fa-arrow-right"></i></button>
+    <section class="confirmPay">
+        <h7>Success!</h7>
+        <p>Thank you for your subscription. You are now a premium user!</p>
+    </section>
+    <button type="submit" class="payment">Okay</button>
+
+<!--Footer-->
+<footer>
+    <div class="get-in-touch">
+        <h8>GET IN TOUCH</h8><br>
+        <p class="get-in-touch">Interested in Pharmly? <br>Contact us today for more information about our services.</p><br>
+        <h8>FOLLOW US</h8>
+        <div class="socialmedia">
+            <i class="fa fa-facebook-official w3-hover-opacity"></i>
+            <i class="fa fa-instagram w3-hover-opacity"></i>
+            <i class="fa fa-twitter w3-hover-opacity"></i>
+        </div>
+    </div>
+    <div class="contact-us">
+        <h8>CONTACT US</h8><br>
+        <p class="contact-us" style="text-decoration: underline; font-weight: 500;">Address</p>
+        <p>UX/UI Project<br>123 Pharmly Lane<br>Bootcamp, GWU 12345</p>
+    </div>
+    <div class="marketing-and-media">
+        <h8>MARKETING AND MEDIA</h8>
+        <p>For all Marketing and Media Inquiries please contact:</p>
+        <div class="teamEmail">
+            <ul class="developer-email">
+                <li>
+                    <a href = "mailto: brina.truong@gmail.com" style="color: #0080A6;">Brina Truong</a>
+                </li>
+                <li>
+                    <a href = "mailto: alisonarnold03@gmail.com" style="color: #0080A6;">Alison Arnold</a>
+                </li>
+                <li>
+                    <a href = "mailto: jamaal.ledbetter339@gmail.com" style="color: #0080A6;">Jamaal Ledbetter</a>
+                </li>
+                <li>
+                    <a href = "mailto: haidgtran@yahoo.com" style="color: #0080A6;">Justin Tran</a>
+                </li>
+            </ul>
+        </div>
+        <p>For more information please refer to: <a href="https://www.drugs.com/" target="_blank" class="marketing-and-media" style="color: #0080A6;">Drugs.com</a></p>
+    </div>
+</footer>
+</body>
+</html>
