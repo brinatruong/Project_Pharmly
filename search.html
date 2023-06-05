@@ -19,15 +19,14 @@
     <header class="NavBar">
         <div class="NavBarBtn" id="NavBar">
             <button class="NavBarBtn">
-                <i class="fa fa-home" id="home"></i>
-                <a href="home.html"></a>
+                <a href="home.html" style="color: black;"><i class="fa fa-home" id="home"></i></a>
             </button>
         </div>
             <img src="images/PharmlyLogo.png" id="headerImg">
             <div class="NavBarBtn">
                 <button class="NavBarBtn">
                     <i class="fa fa-user-circle" id="login"></i>
-                    <a href="profile.html">Login</a>
+                    <a href="profile.html" style="color: black;">Login</a>
                 </button>
             </div>
     </header>
@@ -36,7 +35,7 @@
         <div class="header-title">
             <h3 style="padding-top: 55px;">Enter your medication:</h3>
                 <!--Search Form-->
-            <form class="example" action="action_page.php">
+            <form class="example" action="search.html">
                 <input type="text" placeholder="Search" name="search" style="border-width: 2px; text-indent: 10px;">
                 <button type="submit" id="headerBtn"><i class="fa fa-search" id="headerBtn"></i></button>
             </form>
@@ -51,9 +50,9 @@
     </div>
     <section class="se-dd-fd">
         <div class="description-Btn">
-            <button class="description-tab">Side Effects</button>
-            <button class="description-tab">Drug-Drug Interactions</button>
-            <button class="description-tab">Food-Drug Interactions</button>
+            <button class="description-tab1">Side Effects</button>
+            <button class="description-tab2">Drug-Drug Interactions</button>
+            <button class="description-tab3">Food-Drug Interactions</button>
         </div>
         <div class="SideEffects">
             <ul style="grid-row: 1 / 2; margin: 90px;">
@@ -72,10 +71,10 @@
             </ul>
             <h6 style="font-size: 18px; grid-row: 1; grid-column: 2;">Important Notes:</h6>
             <p style="grid-row: 1; grid-column: 2; margin-top: 100px; margin-right: 50px;">If you’re in an agitated state, taking Adderall could worsen it. Agitation refers to feeling restless, nervous, or annoyed.</p>
-            <p style="grid-row: 2; grid-column: 2; margin-top: -50px; margin-right: 50px;">If you’re in an agitated state, taking Adderall could worsen it. Agitation refers to">Adderall has a risk of <a href="https://www.medicalnewstoday.com/articles/323465#addiction-vs-misuse" style="color: #0080A6; text-decoration: underline;">misuse</a> and <a href="https://www.medicalnewstoday.com/articles/drug-dependence" style="color: #0080A6; text-decoration: underline;">dependence</a>. If you’ve misused or been dependent on drugs in the past, you may have an increased risk of these problems with Adderall. <br>Ask your doctor or pharmacist if you have any questions.</p>
+            <p style="grid-row: 2; grid-column: 2; margin-top: -50px; margin-right: 50px;">Adderall has a risk of <a href="https://www.medicalnewstoday.com/articles/323465#addiction-vs-misuse" style="color: #0080A6; text-decoration: underline;">misuse</a> and <a href="https://www.medicalnewstoday.com/articles/drug-dependence" style="color: #0080A6; text-decoration: underline;">dependence</a>. If you’ve misused or been dependent on drugs in the past, you may have an increased risk of these problems with Adderall. <br>Ask your doctor or pharmacist if you have any questions.</p>
         </div>
-        <div class="DrugDrug">
-            <img src="images/Component 2.png" style="height: 800px; margin-left: 100px; margin-top: -70px;">
+        <div class="DrugDrug" id="Drug-DrugInteractions">
+            <img src="images/Component 2.png" style="height: 800px; margin-left: 100px; margin-top: 70px;">
             <div class="DrugDrugd">
                 <p >Xanax, Vyvanse, Vitamin B12, Vitamin D3, Melatonin, Ibuprofen, Hydroxyzine</p>
                 <p>Omeprazole, Levothyroxine</p>
@@ -83,7 +82,7 @@
             </div>
             <p class="DrugDrugb">Tell your doctor about all other medicines you use.</p>
         </div>
-        <div class="FoodDrug">
+        <div class="FoodDrug" id="FD">
             <p class="FoodDrug">In general, food does not significantly interact with the amphetamine stimulants, a dose may be taken with or without food. However, certain gastrointestinal acidifying agents (e.g., certain fruit juices, etc.) can lower the oral absorption of amphetamines.</p>
             <p class="FoodDrug" style="margin-bottom: 50px;">Fruit juices high in vitamin C, soda drinks, and food with high levels of preservatives should be avoided an hour before and after taking Adderall.</p>
         </div>
