@@ -9,12 +9,12 @@ body {
 .HeroImage img {
     position: absolute;
     width: 1058px;
-    height: 36%;
+    height: 45%;
     z-index: -1;
 }
 .HeroImage h1 {
     margin-left: 60%;
-    padding-top: 10%;
+    padding-top: 20%;
     font-weight: 700;
     font-size: 32px;
 }
