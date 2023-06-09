@@ -173,7 +173,7 @@ p5 {
     font-size: 18px;
     line-height: 24px;
     position: absolute;
-    right: 600px;
+    right: 30%;
 }
 .FoodDrug {
     display: inline-block;
@@ -218,7 +218,8 @@ p5 {
     font-weight: 600;
     line-height: 34px;
     position: absolute;
-    right: 450px;
+    right: 45%;
+    left: 55%
 }
 .signUp-header {
     background-color: #F4F4F4;
